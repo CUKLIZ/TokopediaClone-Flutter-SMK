@@ -102,6 +102,8 @@ flutter run
 | Dart | Programming Language |
 | `intl` | Indonesian Rupiah currency formatting |
 | `ChangeNotifier` | Cart & wishlist state management |
+| `flutter_launcher_icons` | Custom app icon (Android & iOS) |
+| `flutter_native_splash` | Custom splash screen |
 
 ---
 
@@ -111,7 +113,13 @@ flutter run
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.19.0
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_native_splash: ^2.4.6
 ```
 
 ---
