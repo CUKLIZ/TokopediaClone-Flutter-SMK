@@ -8,43 +8,43 @@
 </p>
 
 <p align="center">
-  Aplikasi mobile clone Tokopedia yang dibangun menggunakan Flutter. Proyek ini merupakan implementasi front-end UI yang meniru tampilan dan nuansa aplikasi e-commerce Tokopedia.
+  A mobile UI clone of Tokopedia built with Flutter. This project is a front-end implementation that replicates the look and feel of the Tokopedia e-commerce application.
 </p>
 
 ---
 
 ## 📱 Screenshots
 
-> *Tambahkan screenshot aplikasi kamu di sini*
+> *Add your app screenshots here*
 
-| Home Screen | Detail Produk | Keranjang | Akun |
-|:-----------:|:-------------:|:---------:|:----:|
+| Home Screen | Product Detail | Cart | Account |
+|:-----------:|:--------------:|:----:|:-------:|
 | ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) | ![Cart](screenshots/cart.png) | ![Account](screenshots/account.png) |
 
 ---
 
-## ✨ Fitur
+## ✨ Features
 
-- 🔍 **Search Bar** — Pencarian produk real-time
-- 🎠 **Banner Promo** — Slider otomatis dengan 3 banner promosi
-- 📂 **Filter Kategori** — Electronics, Food, Deals, Fashion
-- 🔃 **Sort & Filter** — Urutkan berdasarkan harga, rating, atau terbaru
-- 🛒 **Keranjang Fungsional** — Tambah, hapus, ubah kuantitas produk
-- ❤️ **Wishlist** — Simpan produk favorit
-- 📦 **Detail Produk** — Halaman lengkap dengan deskripsi dan info toko
+- 🔍 **Search Bar** — Real-time product search
+- 🎠 **Promo Banner** — Auto-sliding banner with 3 promotional slides
+- 📂 **Category Filter** — Electronics, Food, Deals, Fashion
+- 🔃 **Sort & Filter** — Sort by price, rating, or newest
+- 🛒 **Functional Cart** — Add, remove, and update product quantity
+- ❤️ **Wishlist** — Save favorite products
+- 📦 **Product Detail** — Full detail page with description and store info
 - 🧭 **Bottom Navigation** — Home, Cart, Account
 
 ---
 
-## 🗂️ Struktur Proyek
+## 🗂️ Project Structure
 
 ```
 lib/
 ├── main.dart
 ├── models/
-│   ├── product.dart          # Model & data produk
-│   ├── app_theme.dart        # Warna & style global
-│   └── cart_provider.dart    # State management cart & wishlist
+│   ├── product.dart          # Product model & sample data
+│   ├── app_theme.dart        # Global colors & text styles
+│   └── cart_provider.dart    # Cart & wishlist state management
 ├── screens/
 │   ├── home_screen.dart
 │   ├── product_detail_screen.dart
@@ -59,42 +59,42 @@ lib/
 
 ---
 
-## 🚀 Cara Menjalankan
+## 🚀 Getting Started
 
 ### Prerequisites
 - Flutter SDK `>=3.0.0`
 - Android Studio / VS Code
-- Android Emulator atau device fisik
+- Android Emulator or physical device
 
-### Langkah-langkah
+### Installation
 
 ```bash
-# 1. Clone repositori
+# 1. Clone the repository
 git clone https://github.com/CUKLIZ/Tokopedia-Clone-Flutter.git
 
-# 2. Masuk ke direktori proyek
+# 2. Navigate to the project directory
 cd Tokopedia-Clone-Flutter
 
 # 3. Install dependencies
 flutter pub get
 
-# 4. Jalankan aplikasi
+# 4. Run the app
 flutter run
 ```
 
-> **Catatan:** Taruh gambar produk di folder `assets/images/` dengan nama:
+> **Note:** Place product images inside the `assets/images/` folder with these exact names:
 > `headphones.jpg`, `iphone.jpg`, `sneakers.jpg`, `avocado.jpg`, `smartwatch.jpg`, `tshirt.jpg`
 
 ---
 
 ## 🧰 Tech Stack
 
-| Teknologi | Kegunaan |
-|-----------|----------|
+| Technology | Purpose |
+|------------|---------|
 | Flutter | UI Framework |
-| Dart | Bahasa Pemrograman |
-| `intl` | Format harga Rupiah |
-| `ChangeNotifier` | State management cart & wishlist |
+| Dart | Programming Language |
+| `intl` | Indonesian Rupiah currency formatting |
+| `ChangeNotifier` | Cart & wishlist state management |
 
 ---
 
@@ -111,11 +111,11 @@ dependencies:
 
 ## 🎨 Design System
 
-| Elemen | Nilai |
-|--------|-------|
-| Primary Color | `#03AC0E` (Hijau Tokopedia) |
-| Accent Color | `#FF7700` (Oranye) |
-| Star Color | `#FFBB00` (Kuning) |
+| Element | Value |
+|---------|-------|
+| Primary Color | `#03AC0E` (Tokopedia Green) |
+| Accent Color | `#FF7700` (Orange) |
+| Star Color | `#FFBB00` (Yellow) |
 | Font | Roboto |
 
 ---
@@ -127,6 +127,6 @@ dependencies:
 
 ---
 
-## 📄 Lisensi
+## 📄 License
 
-Proyek ini dibuat untuk keperluan sertifikasi front-end. Tidak berafiliasi dengan Tokopedia / GoTo Group.
+This project was created for front-end certification purposes. Not affiliated with Tokopedia / GoTo Group.
