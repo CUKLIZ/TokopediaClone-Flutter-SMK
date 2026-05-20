@@ -39,22 +39,29 @@
 ## 🗂️ Project Structure
 
 ```
-lib/
-├── main.dart
-├── models/
-│   ├── product.dart          # Product model & sample data
-│   ├── app_theme.dart        # Global colors & text styles
-│   └── cart_provider.dart    # Cart & wishlist state management
-├── screens/
-│   ├── home_screen.dart
-│   ├── product_detail_screen.dart
-│   ├── cart_screen.dart
-│   └── account_screen.dart
-└── widgets/
-    ├── product_card.dart
-    ├── category_item.dart
-    ├── promo_banner.dart
-    └── sort_filter_bar.dart
+tokped/
+├── assets/
+│   ├── images/               # Product images
+│   └── logo/                 # App logo assets
+├── lib/
+│   ├── main.dart
+│   ├── models/
+│   │   ├── product.dart          # Product model & sample data
+│   │   ├── app_theme.dart        # Global colors & text styles
+│   │   └── cart_item.dart        # Cart item model
+│   ├── screens/
+│   │   ├── home_screen.dart
+│   │   ├── product_detail_screen.dart
+│   │   ├── cart_screen.dart
+│   │   └── account_screen.dart
+│   ├── services/
+│   │   └── cart_manager.dart     # Cart & wishlist state management
+│   └── widgets/
+│       ├── product_card.dart
+│       ├── category_item.dart
+│       ├── promo_banner.dart
+│       └── sort_filter_bar.dart
+└── screenshots/              # App screenshots
 ```
 
 ---
